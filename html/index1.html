@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!--internal css-->
+        <style>
+            /* syntax:
+            selector{
+                property1:value;
+                property2:value;
+                
+            } */
+            h1 {/*This is a element selector */
+                color:rgb(12, 12, 12);
+                margin-top:30px;
+                padding:40px;
+                border:1px solid violet;
+                margin-bottom: 30px;
+                padding:40px;
+                border:2px dotted blak;
+                margin-left: 20px;
+                padding:20px;
+                border:3px dotted violet;
+                margin:50px 20px 30px 50px;
+                padding:10px 20px 30px 40px;
+                /* opposite direction :top&bttom&left&right */
+                margin:30px 60px;
+                /* top right-left bottom*/
+                margin:20px 30px 40px;
+                paddeng:10px 50px 60px;
+            }
+            p{/*This is a element selector */
+                color:violet;
+            }
+            th{
+                color: rgb(14, 14, 14);
+            }
+            td{
+                /* color: crimson; */
+                /* rgb stands for red, green, blue,value can b/w 0 to 255 */
+                /* color:rgb(100,100, 100); */
+                /* rgba method where a stand for alpa ,value varies from 0 to 1
+                in decimal numbers */
+                /* color:rgba(100, 150, 150, 150); */
+                /* hex code-hexadecimal code */
+                color: #a41e1e;
+                background-color: aqua;
+            }
+            table{
+                border-width: 10px;
+                border-color: black;
+                border-style:groove;
+                /* shorthand property */
+                /* syntax:border:width style color */
+                border:5px groove violet;
+                border-radius: 10px;
+                border-top: 10px dashed black;
+                border-bottom:10px dotted violet ;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 50px;
+                border-collapse: collapse;
+
+            }
+            td{
+                border:1px dotted chocolate;
+                border-radius: 10px;
+                /* border-top: 10px dashed black;
+                border-bottom:10px dotted violet ;
+            } */
+        </style>
+    </head>
+    <body>
+        <!--there are 3 types of css in web development-->
+        <!--internal css,external css &inline css-->
+        <h1>this is a heading.</h1>
+        <h1>this is a second heading</h1>
+        <p>this is a paragraph</p>
+        <!-- we have different kind of selectors in css -->
+        <!-- they are:element selectors, class selectors ,id selectors -->
+        <!-- element selectors include all html tags -->
+        <table>
+            <tr>
+                <th>Table Heading 1</th>
+                <th>Table Heading 2</th>
+                <th>Table Heading 3</th>
+                <th>Table Heading 4</th>
+                <th>Table Heading 5</th>
+                <th>Table Heading 6</th>
+            </tr>
+            <tr>
+                <td>Table body 11</td> 
+                <td>Table body 12</td> 
+                <td>Table body 13</td> 
+                <td>Table body 14</td> 
+                <td>Table body 15</td> 
+                <td>Table body 16</td> 
+            </tr>
+            <tr>
+                <td>Table body 21</td> 
+                <td>Table body 22</td> 
+                <td>Table body 23</td> 
+                <td>Table body 24</td> 
+                <td>Table body 25</td> 
+                <td>Table body 26</td> 
+                
+            </tr>
+        </table>
+    </body>
+</html>
