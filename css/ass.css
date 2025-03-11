@@ -1,0 +1,37 @@
+nav{
+    background-color: aliceblue;
+    border:1px solid white
+}
+.menu-bar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content: center;
+    
+}
+img{
+    width:100px;
+}
+a{
+    text-decoration: none;
+    color:green;
+    background-image: linear-gradient(orange,white,green);
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-items{
+    border: 1px solid black;
+    padding: 30px;
+    flex-grow:3;
+}
+.logo{
+    flex-grow: 4;
+    background-image: linear-gradient(orange,white,green);
+}
+a:hover{
+    color: rgb(17, 15, 14);
+    text-decoration: underline;
+    font-size:25px;
+}
